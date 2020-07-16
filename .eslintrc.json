@@ -1,0 +1,6 @@
+{
+  "env": {
+    "jest": true
+  },
+  "extends": "./node_modules/gts/"
+}

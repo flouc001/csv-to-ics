@@ -1,0 +1,25 @@
+{
+  "name": "shift-ics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run compile && echo hello | node build/src/index.js --eventName=something --shiftFile=./sample/input.csv",
+    "test": "jest",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/jest": "^26.0.4",
+    "@types/node": "^13.11.1",
+    "gts": "^2.0.2",
+    "jest": "^26.1.0",
+    "ts-jest": "^26.1.2",
+    "typescript": "^3.8.3"
+  }
+}
